@@ -1,0 +1,40 @@
+html, 
+body {
+	margin: 0px;
+}
+.social-bar {
+	position: fixed;
+	top: 20%;
+	z-index: 100;
+	left:0px;
+}
+
+.social-bar-link,
+.social-bar-link-medium,
+.social-bar-link-mini {
+	display: block;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.social-bar-link {
+	height: 55px;
+	left: -7px;
+}
+
+.social-bar-link-medium {
+	height: 45px;
+	left: -6px;
+}
+
+.social-bar-link-mini {
+	height: 30px;
+	left: -4px;
+}a.social-bar-link:focus {	outline: auto!important;/*prevents gray outline from the default wordpress theme*/}
+
+@media screen and (max-width: 480px) {
+	.social-bar {
+		display: none
+	}
+}

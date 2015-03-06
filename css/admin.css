@@ -1,0 +1,126 @@
+.social-bar-admin #icons-order-list li {
+	margin: 0;
+	padding: 10px;
+}
+
+#icons-order-list {
+	width: 200px;
+}
+
+.social-bar-admin #icons-order-list li:hover {
+	cursor: move;
+}
+
+.admin-social-bar-icon>img {
+	cursor: move;
+}
+
+.social-bar-admin table {
+	width: 98%;
+}
+
+.social-bar-admin .input-text {
+	width: 100%;
+}
+
+.social-bar-admin .input-checkbox {
+	margin: 2px;
+}
+
+.social-bar-admin .output-text {
+	white-space: nowrap;
+}
+.social-bar-admin .little-column {
+	width: 1%;
+}
+
+td.base-url {
+	text-align: right;
+	color: #aaa;
+}
+
+ul.js-tabs, 
+ul.js-tabs li {
+	list-style: none;
+	list-style-type: none;
+}
+
+ul.js-tabs {
+	margin: 0px;
+	margin-bottom: -1px;
+	overflow: hidden;
+}
+
+#js_tabs .ui-tabs-panel {
+	border-top: 1px solid #45bbe6;
+	width: 99%;
+}
+
+ul.js-tabs li {
+	float: left;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	border-top: 3px solid #cccccc;
+	margin: 0 3px;
+}
+
+ul.js-tabs li a {
+	text-decoration: none;
+}
+
+ul.js-tabs li.ui-state-active a {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+ul.js-tabs li.ui-state-active {
+	float: left;
+	border-top: 3px solid #45bbe6;
+	border-left: 1px solid #45bbe6;
+	border-right: 1px solid #45bbe6;
+}
+
+ul.js-tabs li a {
+	padding: 5px 10px;
+	display: block;
+}
+
+#js_slider {
+	margin-left: 10px;
+}
+
+.ui-slider {
+	position: relative; 
+	text-align: left; 
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	width: 400px;
+}
+.ui-slider .ui-slider-handle {
+	position: absolute; 
+	z-index: 2; 
+	width: 0.7em; 
+	height: 1.2em; 
+	cursor: pointer;
+}
+.ui-slider .ui-slider-range { position: absolute; z-index: 1; font-size: .7em; display: block; border: 0; background-position: 0 0; }
+
+.ui-slider-horizontal { height: .2em; }
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.6em; 
+	margin-left: -.7em;
+	border: 1px solid #45bbe6;
+	background-color: #45bbe6;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+.ui-slider-horizontal .ui-slider-range { top: 0; height: 100%; }
+.ui-slider-horizontal .ui-slider-range-min { left: 0; }
+.ui-slider-horizontal .ui-slider-range-max { right: 0; }
