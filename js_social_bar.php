@@ -7,5 +7,5 @@ Author: Jedi Software
 Author URI: http://www.jedi-software.com
 License: GPL
 */function a() {}register_uninstall_hook('uninstall.php', a);/* SITE - FRONTEND */include "site_functions.php";/* ADMINISTRATION */
-include "admin_functions.php";
+include "admin_functions.php";
 ?>
