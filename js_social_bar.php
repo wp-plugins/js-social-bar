@@ -1,7 +1,4 @@
 <?php
-defined('ABSPATH') or die;
-include "includes/social_html_codes.php";
-
 /*
 
 Plugin Name: JS Social Bar
@@ -18,6 +15,10 @@ Author URI: http://www.jedi-software.com
 License: GPL
 
 */
+
+defined('ABSPATH') or die;
+
+include "includes/social_html_codes.php";
 
 function a() {}
 
